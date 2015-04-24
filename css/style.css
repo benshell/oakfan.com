@@ -1,0 +1,220 @@
+/* COLORS
+Dark Green: 03493f
+Slightly Less Dark Green: 23695f
+Orange: e7aa37
+Darker Orange: ba892c
+*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .8em;
+}
+
+a, a:link, a:active, a:visited {
+	color: #000000;
+	font-weight: bold;
+}
+a:hover {
+	color: #975b00;
+	font-weight: bold;
+}
+iframe {
+	border: 0px solid #ffffff;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 8px 0px 0px 0px;
+}
+h1 {
+  font-size: 1.6em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.4em;
+}
+h4 {
+  font-size: 1.3em;
+}
+h5 {
+  font-size: 1.2em;
+}
+h6 {
+  font-size: 1.1em;
+	font-weight: normal;
+}
+/* The background color does it for Mozilla browsers and the color rule does it for IE. */
+/* http://urlgreyhot.com/personal/node/2490 */
+hr {
+	height: 1px;
+	background-color: #e7aa37;
+	color: #e7aa37;
+	border: none;
+	padding: 0;
+	margin: 1em 0;
+}
+.node {
+	padding: 8px 0 0 0;
+}
+
+#main {
+	background-color: #ffffff;
+	padding: 0px 10px 5px 10px;
+	text-align: left;
+}
+
+.block  {
+	padding-top: 15px;
+}
+
+#sidebar-left, #sidebar-right {
+	background-color: #e7aa37;
+	padding: 7px 0px 3px 0px;
+	text-align: left;
+}
+
+.content-left {
+	background-image: url(../images/theme/content_left_middle.gif);
+	background-repeat: repeat-y;	
+}
+
+.content-right {
+	background-image: url(../images/theme/content_right_middle.gif);
+	background-repeat: repeat-y;
+	background-position-x: right;
+	color: #e7aa37;
+}
+
+.left-edge {
+	background-image: url(../images/theme/left_edge.gif);
+	background-repeat: repeat-y;	
+}
+
+.right-edge {
+	background-image: url(../images/theme/right_edge.gif);
+	background-repeat: repeat-y;	
+}
+
+.orange {
+	background-image: url(../images/theme/orange.gif);
+}
+
+#footer3-middle {
+	background-image: url(../images/theme/footer3_02.gif);
+	background-position: center top;
+}
+
+#bottom-edge {
+	background-image: url(../images/theme/footer1_03.gif);
+	background-repeat: repeat-x;
+}
+
+#top-middle {
+	background-image: url(../images/theme/top_middle.gif);
+	background-repeat: repeat-x;
+}
+
+#footer {
+	background-image: url(../images/theme/footer2_02.gif);
+	background-repeat: repeat-x;
+	text-align: center;
+	font-size: 9px;
+	font-weight: bold;
+	color: #eee;		
+}
+
+#footer a {
+	color: #fff;		
+}
+
+.secondary-links {
+	padding: 0px 0px 0px 42px;
+}
+
+/* --------------------
+NODES
+-------------------- */
+h2 {
+	border-bottom: 1px solid #e7aa37;
+	padding: 0;
+}
+.node .title, .comment .title {
+	/*border-bottom: 1px solid #e7aa37;
+	margin: 0;
+	padding: 0;*/
+	vertical-align: text-bottom;
+}
+.node .title a, .node .title a:link, .node .title a:active, .node .title a:visited {
+  text-decoration: none;
+}
+.node .title a:hover {
+  text-decoration: none;
+}
+.node .image {
+	float: left;
+	margin: 1em 1em 1em 0;
+}
+.node .content {
+  margin: 0;
+}
+.links {
+	font-size: 11px;
+	line-height: 1.25;
+	margin: 0px 0 0 0;
+	padding: 0;
+	vertical-align: bottom;
+	border: 0px solid #fff;
+}
+
+.menu-level-2 {
+	padding: 0px 0px 0px 42px;
+}
+
+.menu-level-3 {
+	padding: 0px 0px 0px 12px;
+}
+
+
+div.img_wrapper {
+	margin:3px;
+	position:relative;
+	float: left;
+	vertical-align:top;
+}
+div.img_wrapper img{	
+	float:left;
+	border: 1px solid #808080;
+}
+div.img_wrapper div{	
+	position:absolute;
+	width: 9px;
+	height: 9px;
+}
+div.img_wrapper div.tl{
+	background:transparent url(../images/theme/box_tl.gif) top left no-repeat;
+	left:-1px;
+	top:-1px;
+}
+
+div.img_wrapper div.tr{
+	background:transparent url(../images/theme/box_tr.gif) top right no-repeat;
+	right:-1px;
+	top:-1px;
+}
+div.img_wrapper div.bl{
+	background:transparent url(../images/theme/box_bl.gif) bottom left no-repeat;
+	left:-1px;
+	bottom:-1px;
+}
+div.img_wrapper div.br{
+	background:transparent url(../images/theme/box_br.gif) bottom right no-repeat;
+	right:-1px;
+	bottom:-1px
+}
+
+.images h3 {
+	font-size: 12px;
+	padding: 0px 0px 0px 0px;
+	margin: 0;
+}
+

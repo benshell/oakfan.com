@@ -1,0 +1,10 @@
+# Site settings
+title: Bringing Disneyland Home
+email: email@oakfan.com
+description: A Sights & Sounds Home Audio-Video Tour of the Happiest Place on Earth
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.oakfan.com" # the base hostname & protocol for your site
+github_username: benshell
+
+# Build settings
+markdown: kramdown

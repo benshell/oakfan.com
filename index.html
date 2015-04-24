@@ -1,0 +1,28 @@
+---
+layout: page
+title: Bringing Disneyland Home Video Podcast
+---
+
+<img border="0" src="/images/homepage550.jpg" alt="Welcome to Bringing Disneyland Home" class="image-center" />
+
+<div class="home">
+
+  {% for post in site.posts %}
+
+  <div class="node">
+    <span class="links" style="float: right;"></span>
+    <h2 class="title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+    <span class="links" style="float: right;"><a href="{{ post.url | prepend: site.baseurl }}" title="Read the rest of this posting." class="read-more">read more</a></span>
+    <div class="links">Posted by Brad on {{ post.date | date: "%b %-d, %Y" }}</div>
+    {% if post.image %}
+    <div class="image"><img src="{{post.image}}"></div>
+    {% endif %}
+    <div class="content">
+      {{ post.excerpt }}
+      <br class="clear" />
+    </div>
+  </div>
+
+  {% endfor %}
+
+</div>

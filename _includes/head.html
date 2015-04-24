@@ -1,0 +1,20 @@
+<head>
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <style type="text/css" media="all">@import "misc/drupal.css";</style>
+  <script type="text/javascript"><!--
+  var BASE_URL = "/";
+  --></script>
+  <script type="text/javascript" src="misc/drupal.js"></script>
+  <script type="text/javascript" src="modules/img_assist/img_assist.js"></script>
+  <style type="text/css" media="all">@import "modules/img_assist/img_assist.css";</style>
+  <style type="text/css" media="all">@import "modules/devel/devel.css";</style>
+  <style type="text/css" media="all">@import "/css/style.css";</style>
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+</head>
